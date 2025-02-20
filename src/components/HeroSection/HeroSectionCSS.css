@@ -1,0 +1,80 @@
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #151515;
+  color: white;
+  padding: 2rem;
+  min-height: 90vh;
+  gap: 2rem;
+}
+
+.hero-content {
+  max-width: 60%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.join-button,
+.contact-link {
+  text-decoration: none;
+  text-align: center;
+  border: solid #ffff00 0.2vmin;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1vmin;
+  min-width: 30vmin;
+}
+.join-button {
+  background-color: #ffff00;
+  color: #151515;
+}
+.hero-image {
+  max-width: 25%;
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 930px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+}

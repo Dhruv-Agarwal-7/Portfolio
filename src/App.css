@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}

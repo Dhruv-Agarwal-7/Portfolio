@@ -1,0 +1,76 @@
+.education-section {
+  padding: 60px 10% 2rem 10%;
+  background-color: #151515;
+  color: black;
+}
+
+.education-section h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.education-item {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 5px solid #005e66;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: scale(1.05);
+}
+
+.education-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.institute {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.location {
+  font-style: italic;
+  color: #888;
+}
+
+.degree {
+  font-size: 1.2rem;
+}
+
+.year {
+  color: #888;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .education-section {
+    padding: 1rem;
+  }
+
+  .education-section h2 {
+    font-size: 2rem;
+  }
+
+  .education-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .institute,
+  .location,
+  .degree,
+  .year {
+    font-size: 1rem;
+  }
+
+  .location,
+  .year {
+    margin-top: 0.2rem;
+  }
+}

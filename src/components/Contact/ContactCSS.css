@@ -1,0 +1,37 @@
+.footer {
+  background-color: #151515;
+  color: white;
+  padding: 2rem 10% 1rem 10%;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-icon {
+  font-size: 7vmin;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-icon:hover {
+  transform: scale(1.15);
+}
+
+.footer-border {
+  margin: 2rem auto;
+  border-top: 2px solid #888;
+}
+
+.footer-text {
+  font-size: 1rem;
+  padding-top: 3vmin;
+}
