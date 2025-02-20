@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Saini-Yogesh.github.io/Portfolio",
+  "homepage": "https://dhruv-agarwal-7.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
-    "gh-pages": "^6.1.1",
     "i": "^0.3.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -40,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
