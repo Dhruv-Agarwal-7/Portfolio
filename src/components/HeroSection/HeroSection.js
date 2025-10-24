@@ -11,7 +11,7 @@ const HeroSection = () => {
         <p>Discover the bespoke solutions and projects delivered.</p>
         <div className="hero-buttons">
           <a
-            href="https://drive.google.com/file/d/1KAOHwqdyCZgWu4tLMtewYx6Q-FZQH9yh/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IONNTE8BWuzqxHEeOMvX_iyZzr_ZiHOD/"
             target="_blank"
             rel="noopener noreferrer"
             className="join-button"
